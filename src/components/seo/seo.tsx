@@ -2,7 +2,7 @@ import { Seo } from "@/types/Seo";
 import { NextPage } from "next";
 import Head from "next/head";
 
-const SEO : NextPage<Seo> = ({description, author, title, meta=[]}: Seo) => {
+const SEO: NextPage<Seo> = ({ description, author, title, meta = [] }: Seo) => {
 
     const metadata = [
         {
@@ -27,22 +27,28 @@ const SEO : NextPage<Seo> = ({description, author, title, meta=[]}: Seo) => {
         }
     ].concat(meta);
 
-    return(
+    return (
         <Head>
-        <title>{title} - Mi Empresa</title>
-        
-        {metadata.map(({name, content}, i) => (
-            <meta key={i} name={name} content={content} />
-        ))}
+            <title>{title} - Mi Empresa</title>
+
+            {metadata.map(({ name, content }, i) => (
+                <meta key={i} name={name} content={content} />
+            ))}
 
 
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+            <link rel="icon" href="/favicon.ico" />
+
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+            <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+
+            <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'></link>
+        </Head>
     )
 }
 
 SEO.defaultProps = {
-    lang: "es-mx",
+    lang: "es",
     meta: []
 }
 

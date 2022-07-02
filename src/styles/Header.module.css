@@ -1,0 +1,33 @@
+.header{
+    background-color: #DD1728;
+    overflow: hidden;
+    height: 7rem;
+    padding: 5rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    width: 5rem;
+}
+
+.header nav{
+    display: flex;
+    gap: 4rem;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.header nav a{
+    letter-spacing: 0.36rem;
+}
+
+.header button{
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    color: #DD1728;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
