@@ -11,7 +11,9 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <SEO title="Inicio" />
+
       <Header />
+
       <div className={styles.banner}>
         
         <div className={styles.banner_content}>
@@ -39,6 +41,7 @@ const Home: NextPage = () => {
           </Link>
         </div>
       </div>
+
     </Layout>
   )
 }
