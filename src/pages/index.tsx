@@ -42,6 +42,18 @@ const Home: NextPage = () => {
         </div>
       </div>
 
+      <section>
+        <div className="box">
+          <h3>Diseno y creatividad</h3>
+        </div>
+        <div className="box">
+          <h3>Mercadotecnia y Comunicacion</h3>
+        </div>
+
+        <div>
+          <h3>Gestion de proyectos</h3>
+        </div>
+      </section>
     </Layout>
   )
 }
