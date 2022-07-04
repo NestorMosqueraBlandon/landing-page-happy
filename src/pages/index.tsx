@@ -5,6 +5,7 @@ import type { NextPage } from 'next'
 import styles from '@styles/Home.module.css'
 import Header from '@/components/header/Header'
 import Link from 'next/link'
+import Footer from '@/components/footer/Footer'
 
 const Home: NextPage = () => {
 
@@ -42,18 +43,35 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <section>
+      <section className={styles.section_flex}>
+        <article>
+
         <div className="box">
+          <img src="/user-icon.svg" alt="" />
           <h3>Diseno y creatividad</h3>
+          <p>Usaremos un diseño poderoso para que tu negocio se destaque y luzca consistentemente bien, ya sea en línea, fuera de línea, creación de marca o ambiente.</p>
         </div>
         <div className="box">
+        <img src="/awesome-edit.svg" alt="" />
+
           <h3>Mercadotecnia y Comunicacion</h3>
         </div>
 
         <div>
+        <img src="/material-security.svg" alt="" />
+
           <h3>Gestion de proyectos</h3>
         </div>
+        </article>
+
+
+        <article className={styles.section_time}>
+          <h4><span>Ahorra tiempo</span> en la gestion de tu negocio con nuestros servicios</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt architecto maxime et laboriosam ea nobis deleniti, vero quia voluptatem laborum quis, fugiat placeat at quo perferendis? Animi corporis culpa ab.</p>
+        </article>
       </section>
+
+      <Footer />
     </Layout>
   )
 }
