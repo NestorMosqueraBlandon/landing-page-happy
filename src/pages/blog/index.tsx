@@ -11,7 +11,7 @@ const Blog: NextPage = () => {
 
   return (
     <Layout>
-      <SEO title="Inicio" />
+      <SEO title="Blog" />
 
       <Header />
 

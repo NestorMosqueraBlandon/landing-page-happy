@@ -6,9 +6,13 @@ import styles from '@/styles/Header.module.css';
 const Header: NextPage = () => {
     return (
         <header className={styles.header}>
+            <Link href="/">
+
             <div className={styles.logo}>
                 <img src="/logo.svg" alt="" />
             </div>
+            </Link>
+
             <nav>
                 <Link href="/">
                     <a>SERVICIOS</a>
