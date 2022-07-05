@@ -29,7 +29,7 @@ const SEO: NextPage<Seo> = ({ description, author, title, meta = [] }: Seo) => {
 
     return (
         <Head>
-            <title>{title} - Mi Empresa</title>
+            <title>{title} - Happy Creative Agency</title>
 
             {metadata.map(({ name, content }, i) => (
                 <meta key={i} name={name} content={content} />

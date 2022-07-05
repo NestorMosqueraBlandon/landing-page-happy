@@ -212,6 +212,7 @@
 
 .main_article img{
   border-radius: .5rem;
+  max-width: 900px;
 }
 
 .main_article h4{
@@ -238,4 +239,25 @@
 .post_list article{
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 768px){
+  .banner_content{
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 7rem;
+  }
+
+  .banner_content > div h2{
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+
+  .section_flex > article:first-child{
+    flex-direction: column;
+  }
+  
+  .section_build{
+    flex-direction: column;
+  }
 }

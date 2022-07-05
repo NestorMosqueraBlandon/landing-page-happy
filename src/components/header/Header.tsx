@@ -27,6 +27,9 @@ const Header: NextPage = () => {
             <div>
                 <button>Asesoria</button>
             </div>
+            <button className={styles.barmenu}>
+            <i className='bx bx-menu'></i>
+            </button>
         </header>
     )
 }
