@@ -14,15 +14,15 @@ const Header: NextPage = () => {
             </Link>
 
             <nav>
-                <Link href="/">
+                {/* <Link href="/">
                     <a>SERVICIOS</a>
                 </Link>
                 <Link href="/">
                     <a>CONOCENOS</a>
-                </Link>
-                <Link href="/">
-                    <a>CONTATO</a>
-                </Link>
+                </Link>*/}
+                <Link href="/team">
+                    <a>EQUIPO</a>
+                </Link> 
                 <Link href="/blog">
                     <a>BLOG</a>
                 </Link>
