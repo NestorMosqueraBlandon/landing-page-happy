@@ -10,3 +10,13 @@
 .footer .logo{
     width: 3rem;
 }
+
+.footer_social{
+    display:flex;
+    font-size: 2.5rem;
+    gap: 1.5rem;   
+}
+
+.footer > p{
+    font-size: 1.2rem;
+}

@@ -7,7 +7,7 @@ const Footer: NextPage = () => {
     return (
         <footer className={styles.footer}>
          
-         <div className={styles.banner_social}>
+         <div className={styles.footer_social}>
           <Link href="">
           <a><i className='bx bxl-instagram'></i></a>
           </Link>
@@ -23,7 +23,7 @@ const Footer: NextPage = () => {
             </div>
 
             <p>
-                2022 Copyrights & Protected
+                &copy; 2022 Happy Creative Agency. All Rights Reserved.
             </p>
         </footer>
     )

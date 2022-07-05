@@ -1,7 +1,10 @@
 .banner{
   background-color: #DD1728;
-  min-height: 90vh;
+  min-height: 92vh;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner_content{
@@ -9,12 +12,14 @@
   align-items: flex-end;
   justify-content: space-evenly;
   height: 100%;
-  padding-top: 5rem;
+  gap: 5rem;
+  margin-top: -5rem;
 }
 
 .banner_content > div h2{
   font-size: 10rem;
   color: #FFF;
+  line-height: 10rem;
 }
 
 .banner_content > div h2:nth-child(2){
@@ -66,18 +71,20 @@
   gap: 4rem;
 }
 
+
 .section_flex >  article > div{
   background-color: #FFF;
   box-shadow: 0 4px 16px rgba(0, 0, 0, .1);
   padding: 2rem;
   border-radius: .5rem;
-  height: 30rem;
+  height: 28rem;
   width: 35rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  padding-top: 5rem;
   gap: 2rem;
 }
 
@@ -112,4 +119,83 @@
 .section_time p{
   max-width:700px;
   font-size: 2rem;
+}
+
+.section_build{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DD1728;
+  color: #FFF;
+  padding: 4rem 0;
+}
+
+.section_build img{
+  width: 300px;
+}
+
+.section_build article p{
+  max-width: 500px;
+}
+
+.section_build article h2{
+  font-size: 4rem;
+}
+
+.section_build article h2 span{
+  color: #FFB037;
+}
+
+
+.section_build article p{
+  margin-top: 2.5rem;
+}
+
+.section_trend{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  padding: 8rem 0;
+  background-color: #F2F6FF;
+}
+
+.trend_list{
+  display: flex;
+  flex-direction: column;
+}
+
+.trend_list img{
+  width: 30px;
+}
+
+.trend_list p{
+  max-width: 500px;
+  color: #666;
+}
+
+.trend_list > div  h2{
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+
+.trend_list > div > div{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.categories{
+  padding: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.categories button{
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+  cursor: pointer;
 }
