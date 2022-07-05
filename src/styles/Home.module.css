@@ -119,6 +119,7 @@
 .section_time p{
   max-width:700px;
   font-size: 2rem;
+  margin-top: -2rem;
 }
 
 .section_build{

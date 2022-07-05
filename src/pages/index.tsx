@@ -70,7 +70,8 @@ const Home: NextPage = () => {
 
         <article className={styles.section_time}>
           <h4><span>Ahorra tiempo</span> en la gestion de tu negocio con nuestros servicios</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt architecto maxime et laboriosam ea nobis deleniti, vero quia voluptatem laborum quis, fugiat placeat at quo perferendis? Animi corporis culpa ab.</p>
+          <p>Happy ayuda a las organizaciones en Colombia y en todo el mundo a ganar
+nuevos clientes, crear conciencia, influir en sus mercados y generar clientes potenciales.</p>
         </article>
       </section>
 
@@ -79,24 +80,24 @@ const Home: NextPage = () => {
         <article>
           <h2>HOY <span>HAPPY</span> CONSTRUYE TUS SUENOS</h2>
           <h2>QUE VAN MAS <span>ALLA DEL UNIVERSO</span></h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, illo ut. Culpa nulla eveniet, iste accusamus magni aut perspiciatis necessitatibus ipsa beatae aliquam consequuntur, quis enim vero qui cumque nemo.</p>
+          <p>Usaremos nuestras habilidades de marketing, diseño y contenido para generar nuevas consultas en tu negocio.</p>
         </article>
       </section>
 
       <section className={styles.section_trend}>
         <article className={styles.trend_list}>
           <div>
-            <h2>Lorem ipsum</h2>
+            <h2>Marketing</h2>
             <div>
               <img src="/notification-icon.svg" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel veniam sed doloremque tempore, accusantium officiis eligendi nam cum, numquam rem temporibus odio ipsa! Officiis doloribus eius quibusdam ullam odit?</p>
+              <p>El marketing es crucial para cualquier negocio. La actividad de marketing adecuadamente planificada y ejecutada construirá su presencia y generará oportunidades para su negocio.</p>
             </div>
           </div>
           <div>
-            <h2>Lorem ipsum</h2>
+            <h2>Generacion de leads</h2>
             <div>
               <img src="/user-icon.svg" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel veniam sed doloremque tempore, accusantium officiis eligendi nam cum, numquam rem temporibus odio ipsa! Officiis doloribus eius quibusdam ullam odit?</p>
+              <p>Encontrar nuevos clientes es uno de los principales retos a los que se enfrenta una empresa. Las empresas que no tienen un proceso o un plan para atraer nuevos clientes corren el riesgo de que los prospectos y los clientes los pasen por alto u los olviden o corren el riesgo de que los competidores les roben la ventaja.</p>
             </div>
           </div>
           <div>
