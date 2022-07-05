@@ -260,4 +260,47 @@
   .section_build{
     flex-direction: column;
   }
+
+  .section_build h2{
+    text-align: center;
+  }
+
+  .section_build p{
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .banner_social{
+    bottom: 20px;
+  }
+
+  .section_time{
+    padding: 0 2rem;
+  }
+  .section_trend{
+    gap: 1rem;
+    padding: 6rem 2rem;
+    flex-direction: column;
+  }
+
+  .categories{
+    width: 100%;
+    overflow: scroll;
+    padding: 2rem 1rem;
+  }
+
+  .container{
+    padding: 0 2rem;
+  }
+
+  .container > .main_article{
+    display: none;
+  }
+  .post_list{
+    gap: 4rem;
+  }
+
+  .main_article{
+    gap: 1.5rem;
+  }
 }
