@@ -188,7 +188,7 @@
 }
 
 .categories{
-  padding: 8rem;
+  padding: 5rem 8rem;
   display: flex;
   align-items: center;
   gap: 4rem;
@@ -199,4 +199,43 @@
   background-color: transparent;
   font-size: 1.4rem;
   cursor: pointer;
+}
+
+.container{
+  padding: 0 8rem;
+}
+
+.main_article{
+  display: flex;
+  gap: 4rem;
+}
+
+.main_article img{
+  border-radius: .5rem;
+}
+
+.main_article h4{
+  color: #666;
+}
+
+.main_article h2{
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+}
+
+.main_article p{
+  color: #666;
+}
+
+.post_list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.post_list article{
+  display: flex;
+  flex-direction: column;
 }

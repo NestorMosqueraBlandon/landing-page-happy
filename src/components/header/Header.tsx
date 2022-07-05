@@ -19,7 +19,7 @@ const Header: NextPage = () => {
                 <Link href="/">
                     <a>CONTATO</a>
                 </Link>
-                <Link href="/">
+                <Link href="/blog">
                     <a>BLOG</a>
                 </Link>
             </nav>

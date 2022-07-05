@@ -71,7 +71,7 @@ const Home: NextPage = () => {
         <article className={styles.section_time}>
           <h4><span>Ahorra tiempo</span> en la gestion de tu negocio con nuestros servicios</h4>
           <p>Happy ayuda a las organizaciones en Colombia y en todo el mundo a ganar
-nuevos clientes, crear conciencia, influir en sus mercados y generar clientes potenciales.</p>
+            nuevos clientes, crear conciencia, influir en sus mercados y generar clientes potenciales.</p>
         </article>
       </section>
 
@@ -101,10 +101,13 @@ nuevos clientes, crear conciencia, influir en sus mercados y generar clientes po
             </div>
           </div>
           <div>
-            <h2>Lorem ipsum</h2>
+            <h2>Branding y diseño gráfico</h2>
             <div>
               <img src="/like-icon.svg" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vel veniam sed doloremque tempore, accusantium officiis eligendi nam cum, numquam rem temporibus odio ipsa! Officiis doloribus eius quibusdam ullam odit?</p>
+              <p>Una marca reconocida y respetada es uno de los activos más valiosos que posee una empresa.
+
+                Las investigaciones confirman constantemente que las personas prefieren comprar productos y servicios de
+                marcas que les son familiares.</p>
             </div>
           </div>
         </article>
