@@ -1,9 +1,12 @@
 import { NextPage } from "next";
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import styles from '@/styles/Header.module.css';
 
 const Header: NextPage = () => {
+
+    const [openMenu, setOpenMenu] = useState(false);
+
     return (
         <header className={styles.header}>
             <Link href="/">
@@ -31,9 +34,27 @@ const Header: NextPage = () => {
             <div>
                 <button>Asesoria</button>
             </div>
-            <button className={styles.barmenu}>
+            <button className={styles.barmenu} onClick={() => setOpenMenu(true)}>
             <i className='bx bx-menu'></i>
             </button>
+
+
+            {openMenu && (
+
+            <div className={styles.mobile_menu}>
+            <button className={styles.barmenu} onClick={() => setOpenMenu(false)}>
+            <i className='bx bx-menu'></i>
+            </button>
+
+            <Link href="/team">
+                    <a>EQUIPO</a>
+                </Link> 
+                <Link href="/blog">
+                    <a>BLOG</a>
+                </Link>
+            </div>
+            )}
+
         </header>
     )
 }

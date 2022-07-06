@@ -36,6 +36,10 @@
 .barmenu{
     display: none;
 }
+
+.mobile_menu{
+    display: none;
+}
 @media screen and (max-width: 768px){
     .header{
         padding: 3rem 2rem;
@@ -53,11 +57,40 @@
         display: block !important;
         background-color: transparent;
         height: 4rem;
-        width: 5.5rem;        
+        width: 5.5rem;     
     }
 
     .barmenu i{
         color: #FFF;
         font-size: 3.5rem;
+    }
+
+    .mobile_menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #F2F6FF;
+        z-index: 999;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .mobile_menu .barmenu i{
+        color: #DD1728;
+        position: absolute;
+        right: 15px;
+        top: 1rem;
+    }
+
+    .mobile_menu {
+        display: flex;
+        text-align: center;
+        padding-top: 3rem;
+        flex-direction: column;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #DD1728;
+        gap: 2rem;
     }
   }
