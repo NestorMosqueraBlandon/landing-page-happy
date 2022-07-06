@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             <p>Somos una agencia extraterrestre que viene desde Happy Planet, con el proposito de estudiar a la humanidad para entenderla y encontrar la esencia de lo humano 	&#10084;</p>
             <button>Agendar Asesoria</button>
           </div>
-          <img src="/astronauta.png" alt="" />
+          <img src="/animacion.gif" alt="" />
 
         </div>
 
