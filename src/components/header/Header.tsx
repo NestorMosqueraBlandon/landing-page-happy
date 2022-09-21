@@ -9,11 +9,16 @@ const Header: NextPage = () => {
 
     return (
         <header className={styles.header}>
+            <div className={styles.container_header}>
+
             <Link href="/">
+            <a>
 
             <div className={styles.logo}>
                 <img src="/logo.svg" alt="" />
             </div>
+            </a>
+
             </Link>
 
             <nav>
@@ -23,6 +28,9 @@ const Header: NextPage = () => {
                 <Link href="/">
                     <a>CONOCENOS</a>
                 </Link>*/}
+                 <Link href="/">
+                    <a>INICIO</a>
+                </Link> 
                 <Link href="/team">
                     <a>EQUIPO</a>
                 </Link> 
@@ -39,9 +47,7 @@ const Header: NextPage = () => {
             </button>
 
 
-            {openMenu && (
-
-            <div className={styles.mobile_menu}>
+            <div className={openMenu? styles.mobile_menu : `${styles.mobile_menu} ${styles.active}`}>
             <button className={styles.barmenu} onClick={() => setOpenMenu(false)}>
             <i className='bx bx-menu'></i>
             </button>
@@ -53,7 +59,7 @@ const Header: NextPage = () => {
                     <a>BLOG</a>
                 </Link>
             </div>
-            )}
+            </div>
 
         </header>
     )

@@ -188,10 +188,30 @@
 }
 
 .categories{
-  padding: 5rem 8rem;
+  padding: 5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categories > div{
   display: flex;
   align-items: center;
   gap: 4rem;
+}
+
+.categories span{
+  border: 1px solid rgba(0, 0, 0, .3);
+  padding: 1rem;
+  border-radius: .5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.categories span input{
+  width: 100%;
+  border: none;
+  outline: none;
 }
 
 .categories button{
@@ -199,10 +219,6 @@
   background-color: transparent;
   font-size: 1.4rem;
   cursor: pointer;
-}
-
-.container{
-  padding: 0 8rem;
 }
 
 .main_article{
@@ -230,10 +246,27 @@
 
 .post_list{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 6rem;
   margin-bottom: 6rem;
+}
+
+.post_list .main_article h2{
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.main_article img:hover{
+  scale: 1.1;
+  transition: .3s;
+}
+
+.main_article_img{
+  overflow: hidden;
+  border-radius: .5rem;
 }
 
 .post_list article{
@@ -242,7 +275,7 @@
 }
 
 .team_section{
-  padding: 4rem  8rem;
+  padding: 4rem  0rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -258,7 +291,50 @@
 
 .team_section p{
   text-align: center;
-  max-width: 800px;
+  max-width: 900px;
+  font-size: 1.8rem;
+}
+
+.team_card{
+
+}
+
+.team_card_img{
+  width: 100%;
+  background-color: rgb(208, 208, 208);
+  overflow: hidden;
+  position: relative;
+}
+
+.team_card_img::after{
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 75px);
+  content: "";
+  height: 150px;
+  width: 150px;
+  background-color: #DD1728;
+  opacity: .1;
+  border-radius: 50rem;
+  z-index: 0;
+}
+
+
+.team_card_img{
+  width: 100%;
+  z-index: 0;
+  height: 20rem;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team_card_img img{
+  z-index: 999999;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
 }
 
 .team_list{
@@ -267,7 +343,23 @@
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) );
   padding: 0 8rem;
-  padding-bottom: 30rem;
+  padding-bottom: 5rem;
+  gap: 2rem;
+}
+
+.team_card{
+  overflow: hidden;
+  min-height: 450px;
+  margin-bottom: 2rem;
+}
+.team_card h2{
+  margin: .5rem 0;
+}
+
+.team_card h3{
+  margin: .5rem 0;
+  color: rgba(0, 0, 0, .6);
+  font-size: 1.8rem;
 }
 @media screen and (max-width: 768px){
   .banner_content{

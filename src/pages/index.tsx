@@ -16,6 +16,8 @@ const Home: NextPage = () => {
       <Header />
 
 
+      
+
       <div className={styles.banner}>
 
         <div className={styles.banner_content}>
@@ -27,9 +29,7 @@ const Home: NextPage = () => {
             <button>Agendar Asesoria</button>
           </div>
           <img src="/animacion.gif" alt="" />
-
         </div>
-
 
         <div className={styles.banner_social}>
           <Link href="">

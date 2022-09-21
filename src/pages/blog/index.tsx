@@ -15,9 +15,13 @@ const Blog: NextPage = () => {
 
       <Header />
 
+        <div className="container">
+
         <section>
             <div className={styles.categories}>
-            <button>
+              <div>
+
+                <button>
                     Todo
                 </button>
                 <button>
@@ -32,12 +36,20 @@ const Blog: NextPage = () => {
                 <button>
                     Negocios
                 </button>
+              </div>
+              <span>
+              <i className='bx bx-search'></i>
+              <input type="search"  placeholder='Buscar articulos...'/>
+
+              </span>
             </div>
 
             <div className={styles.container}>
 
             <article className={styles.main_article}>
+            <div className={styles.main_article_img}>
               <img src="/bloghappy.jpg" alt="" />
+            </div>
 
               <div className={styles.content}>
                 <h4>Blog | Social Media Marketing</h4>
@@ -48,7 +60,9 @@ const Blog: NextPage = () => {
 
             <div className={styles.post_list}>
             <article className={styles.main_article}>
-              <img src="/bloghappy.jpg" alt="" />
+              <div className={styles.main_article_img}>
+                <img src="/bloghappy.jpg" alt="" />
+              </div>
 
               <div className={styles.content}>
               <h4>Blog | Social Media Marketing</h4>
@@ -105,6 +119,7 @@ const Blog: NextPage = () => {
             </div>
 
         </section>
+        </div>
 
       <Footer />
     </Layout>

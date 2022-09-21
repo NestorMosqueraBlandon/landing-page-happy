@@ -24,7 +24,142 @@ img{
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1350px;
   width: 90%;
   margin: 0 auto;
 }
+
+.content_post{
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  margin-bottom: 5rem;
+  gap: 4rem;
+}
+
+.content_post > div h2 {
+  font-size: 3.5rem;
+  margin-bottom: 2.4rem;
+  color: rgba(0, 0, 0, .8);
+  line-height: 3.8rem;
+}
+
+.content_post > div h3 {
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, .8);
+  font-size: 2.2rem;
+}
+
+
+.content_post > div p {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 500;
+}
+
+.content_post > div li {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.content_post aside button{
+  width: 90%;
+  height: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: .5rem;
+}
+
+.content_post aside .special-btn{
+  height: 8rem;
+  width: 10rem;
+  border-radius: 5rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content_post aside .special-btn span{
+  height: 5rem;
+  width: 5rem;
+  border-radius: 5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+  font-size: 3rem;
+  color: #DD1728;
+  padding-top: 1rem;
+}
+
+.container-color{
+  background-color: rgb(246, 247, 249);
+  padding: 4rem 0;
+}
+
+.content_post aside .special-btn p{
+  margin-top: 1rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, .4);
+}
+
+.interesting h2{
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+.interesting-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.interesting-content .interesting-card{
+  border: 1px solid rgba(0, 0, 0, .15);
+  display: flex;
+  flex-direction: column;
+  border-radius: .5rem;
+  border: none;
+  min-height: 40rem;
+  background-color: #fff;
+}
+
+.interesting-content .interesting-card .interesting-img{
+  width: 100%;
+  overflow: hidden;
+  border-radius: .5rem;
+  
+}
+
+
+.interesting-content .interesting-card .interesting-img img{
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.interesting-content-data{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: .5rem;
+}
+
+.interesting-content-data h2{
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, .8);
+}
+
+.interesting-content-data h4{
+  color: rgba(0, 0, 0, .8);
+}
+
+.interesting-content-data p{
+  margin-top: -3rem;
+}
+
